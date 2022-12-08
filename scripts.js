@@ -85,7 +85,6 @@ calculate = () => {
 }
 
 updateDisplay = () => {
-    console.log(`previousOperand: ${previousOperand}, currentOperand: ${currentOperand}, operatorValue: ${operatorValue}`);
     currentOperandTextElement.innerText = currentOperand;
     previousOperandTextElement.innerText = previousOperand + ' ' + operatorValue;
 }
